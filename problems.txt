@@ -1,0 +1,67 @@
+custom code - problems with gui_music_player.rb
+COUPLING
+1. modules/classes
+	
+	a. data is not shared or changed
+	b. data is only related in main window
+	c. coupling
+
+	e.g. Buttons return buttons with locations,
+	where as Album_store deals only with its own file
+	and returns data from that file but not data in 
+	Buttons class or any module
+
+	d. main window, 
+
+CHANLENGES
+1. button clashes with other buttons
+
+	Problem: 
+	variable initially nil, btn pressed
+	before event of variable assigned to array
+	therefore allowing to get element
+
+	fixes:
+	use time delay for each btn click and quickly set 
+	it to zero at update. (used, update_interval)
+
+2. modular btns
+	
+	Problem:
+	
+	a. created buttons classes for each track and album
+	b. problem rises when adding playlist feature because
+	it would increase the code as there was no usable btn creator
+	
+	fixes:
+	
+	a. set two variables for left panel and right panel for view
+	of btns either playlist, track or albums
+	b. give parameters id panel side and number of items to display
+	c. return coordinates of buttons (fixed width and height)
+
+3. pstore yaml
+	
+	Problem:
+	
+	a. values not printing properly in gui
+	b. data not seperated
+	c. best way to pair playlist to tracks
+	d. get the tracks and location individually to display
+
+	fixes:
+
+	a. seperate playlist titles from data
+
+4. add tracks
+	
+	Problem:
+	
+	btn -> data -> display
+	
+	a. reuse display all track (get track data)
+	b. reuse button track
+	c. reuse highlight
+	b. reuse indicate selected button
+	d. get data/display data when done
+	e. store data

@@ -1,0 +1,72 @@
+---
+playlist:
+  Favorites:
+    ? 'Applause
+
+      '
+    : sounds/1.ogg
+    ? 'forest
+
+      '
+    : sounds/2.ogg
+    ? 'Screeching tires
+
+      '
+    : sounds/11.ogg
+    ? 'Delirous Laughter
+
+      '
+    : sounds/8.ogg
+    ? 'Walla group
+
+      '
+    : sounds/7.ogg
+    ? 'Baby Crying
+
+      '
+    : sounds/6.ogg
+    ? 'Women fight
+
+      '
+    : sounds/5.ogg
+    ? 'Cry of pain
+
+      '
+    : sounds/4.ogg
+  Playlist 1:
+    ? 'Heartbeat
+
+      '
+    : sounds/3.ogg
+    ? 'Cry of pain
+
+      '
+    : sounds/4.ogg
+    ? 'Screeching tires
+
+      '
+    : sounds/11.ogg
+    ? 'Acceleration
+
+      '
+    : sounds/9.ogg
+    ? 'Walla group
+
+      '
+    : sounds/7.ogg
+    ? 'Car door
+
+      '
+    : sounds/10.ogg
+    ? 'Delirous Laughter
+
+      '
+    : sounds/8.ogg
+    ? 'Baby Crying
+
+      '
+    : sounds/6.ogg
+    ? 'Women fight
+
+      '
+    : sounds/5.ogg

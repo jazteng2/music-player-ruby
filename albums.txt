@@ -1,0 +1,37 @@
+3
+natural sound
+Joseph SARDIN
+image/nature.png
+3
+Applause
+sounds/1.ogg
+forest
+sounds/2.ogg
+Heartbeat
+sounds/3.ogg
+
+human sound
+Dorian CLAIR
+image/human.png
+5
+Cry of pain
+sounds/4.ogg
+Women fight
+sounds/5.ogg
+Baby Crying
+sounds/6.ogg
+Walla group
+sounds/7.ogg
+Delirous Laughter
+sounds/8.ogg
+
+Cars
+Joseph SARDIN
+image/car.png
+3
+Acceleration
+sounds/9.ogg
+Car door
+sounds/10.ogg
+Screeching tires
+sounds/11.ogg
